@@ -1,10 +1,9 @@
-import React from 'react'
-const page = () => {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  )
-}
+import VideoEditor from '@/components/video-editor/video-editor';
 
-export default page
+export default function Home() {
+  return (
+    <main className="h-screen w-full overflow-hidden">
+      <VideoEditor />
+    </main>
+  );
+}
